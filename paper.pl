@@ -20,6 +20,11 @@ print "\n\n### paper sorter by muniaLabs\n\n";
 # make sure that the base directories exists
 
 
+# depends on OSX or linux...
+$md5exe     = '/usr/bin/md5sum';
+$md5options = "";
+
+
 $OCR = "true";
 
 if ( $#ARGV == -1 ) {
